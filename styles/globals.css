@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navLink {
+    @apply text-lg mr-4 underline decoration-greenPrimary p-1 underline-offset-4;
+}

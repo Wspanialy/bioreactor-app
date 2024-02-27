@@ -14,7 +14,7 @@ import ParametersViewResistivity from "@components/ParametersViewSalnity";
 import ParametersViewDO from "@components/ParametersViewDO";
 
 const Home = () => {
-  const data = useFetchAndMemoizeData("http://192.168.0.164:5000/get_data");
+  const data = useFetchAndMemoizeData("http://localhost:5000/get_data");
 
   return (
     <>

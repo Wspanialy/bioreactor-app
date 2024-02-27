@@ -2,6 +2,13 @@
   "name": "bioreactor",
   "version": "0.1.0",
   "private": true,
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:5000",
+      "pathRewrite": { "^/api": "/api" },
+      "changeOrigin": true
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

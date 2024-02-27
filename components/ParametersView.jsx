@@ -1,11 +1,17 @@
-const ParametersView = ({ value, name, channel, channelName, dateStamp }) => {
+const ParametersView = ({ mode, parametr1 ='', parametr2, parametr3, parametr4, parametr5, parametr6, parametr7, parametr8, parametr9, parametr10, parametr11, parametr12, parametr13, parametr14, parametr15, parametr16,
+   }) => {
   return (
     <div className="border-solid border-2 border-black rounded-3xl flex flex-col">
-      <div className="text-center text-2xl mt-2">{value} {name}</div>
+      <div className="text-center text-2xl mt-2">{mode}</div>
       <div className="m-2 text-sm">
-        <p>Channel: {channel}</p>
-        <p>Name: {channelName}</p>
-        <p>Date: {dateStamp}</p>
+        <p>Channel: {parametr1} {parametr2}</p>
+        <p>Channel: {parametr3} {parametr4}</p>
+        <p>Channel: {parametr5} {parametr6}</p>
+        <p>Channel: {parametr7} {parametr8}</p>
+        <p>Channel: {parametr9} {parametr10}</p>
+        <p>Channel: {parametr11} {parametr12}</p>
+        <p>Channel: {parametr13} {parametr14}</p>
+        <p>Channel: {parametr15} {parametr16}</p>
       </div>
     </div>
   );

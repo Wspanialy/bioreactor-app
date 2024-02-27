@@ -5,3 +5,7 @@
 .navLink {
     @apply text-lg mr-4 underline decoration-greenPrimary p-1 underline-offset-4;
 }
+
+.export-button{
+    @apply bg-green-500 hover:bg-green-700 text-white py-2 px-2 font-bold rounded-md;
+}
